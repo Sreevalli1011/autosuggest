@@ -14,3 +14,20 @@ h1{
     padding:10px;
     text-align:center;
 }
+.Navbar{
+    background-color:lightblue;
+    padding:10px;
+    text-align:center;
+}
+.Navbar a{
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.863);
+    padding:10px;
+}
+.Navbar a:hover{
+    background-color: rgba(243, 236, 236, 0.863);
+    color:rgba(0, 0, 0, 0.368);
+}
+body{
+    margin:0px;
+}
