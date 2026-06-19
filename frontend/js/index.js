@@ -1,3 +1,3 @@
-alert("Hello From JavaScript!!");
+//alert("Hello From JavaScript!!");
 
 console.log("Hello From JavaScript!!");
