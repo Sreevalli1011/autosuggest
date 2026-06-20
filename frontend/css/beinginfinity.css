@@ -13,3 +13,23 @@
 .para{
     text-align: center;
 }
+
+.being{
+    color:rgb(140, 0, 255)
+}
+
+.search-box{
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.lens{
+    position: relative;
+    /* top: 20% or bottom: 20% or left: 20% or right: 20% 
+    */
+    left:30px;
+}
