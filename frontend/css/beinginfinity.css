@@ -1,35 +1,59 @@
-.circle{
+body{
+    margin: 50px;
+}
+.Para{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+    text-align: center;
+    width:300px;
+    margin:auto;
+}
+h1{
+    width:300px;
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Para2{
+   margin-top: 20px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+}
+.gear{
     position: fixed;
     top: 10px;
     left: 10px;
 }
 
-.clock{
+.pill{
     position: fixed;
     top: 10px;
     right: 10px;
 }
 
-.para{
+.main-content{
     text-align: center;
 }
-
+.online-dot{
+    color: green;
+    font-size: 20px;
+}
 .being{
-    color:rgb(140, 0, 255)
+    color: rgb(0, 23, 128);
 }
-
 .search-box{
-    border-radius: 20px;
-    padding-left: 40px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius:20px;
+    padding-left:30px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
 
 }
-
 .lens{
     position: relative;
-    /* top: 20% or bottom: 20% or left: 20% or right: 20% 
-    */
-    left:30px;
+    left:30px
 }

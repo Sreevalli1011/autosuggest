@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoSuggest - Being Infinity</title>
-    </title>
+    <title>AutoSuggest-BeingInfinity</title>
     <link rel="stylesheet" href="../css/beinginfinity.css">
 </head>
 <body>
-    <span class="circle">&#x2699;</span>
-    <span class="clock">
-        &#x2022; online |
-        &#x23F0; - ms
-    </span>
-    <div class="para">
-    <h1><span class="being">Being</span>Infinity</h1>
-        <p>  One million phrases. Four Algorithms.
+    <span class="gear">&#x2699;</span>
+    <span class="pill">
+    <span class="online-dot">&#x2022;</span>
+    online |
+    &#x23F0; - ms
+</span>
+    <div class="main-content">
+        <h1 class = "logo"><span class="being">Being</span> Infinity</h1>
+        <p class = "tagline">
+            One million phrases. Four Algorithms.
             Prefix Based Auto Suggest.
         </p>
         <div>
             <span class="lens">&#128270;</span>
-            <input class="search-box" placeholder="Start typing to search...">
-            <div id="search-suggestions"></div>
+            <input class = "search-box"
+                type="text"
+                placeholder="Start typing to search..." id="search-bar"
+            >
+            <div id = "search-suggestions" ></div>
         </div>
     </div>
+    <script src="../js/beinginfinity.js"></script>
 </body>
 </html>
